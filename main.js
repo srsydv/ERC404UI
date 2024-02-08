@@ -81,6 +81,8 @@ init = async() => {
         TokenAddress1.value
       )
 
+      console.log("jj",ERC404Methods);
+
     await ERC404Methods.methods.setWhitelist(gameId1.value,true)
     .send({ from: accounts[0] })
     .once("receipt", (reciept) => {
@@ -91,7 +93,7 @@ init = async() => {
   }
   const gameId1 = document.getElementById("gameId1");
   // let bidderAddress1 = document.getElementById("bidderAddress1");
-  const TokenAddress1 = document.getElementById("bidStartTime");
+  const TokenAddress1 = document.getElementById("bidStartTime22");
   const addBidder = document.getElementById("addBidder");
   addBidder.onclick = Whitelist
 
