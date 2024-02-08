@@ -2976,7 +2976,7 @@
 84/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/src/account.ts1707309442312150889 0
 98/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/src/tx/eip1559Transaction.ts1707309442332151049 0
 95/home/dell/Documents/ERC404UI/ERC404UI/node_modules/css-tree/lib/syntax/node/DeclarationList.js1707309559565090028 0
-46/home/dell/Documents/ERC404UI/ERC404UI/main.js1707319013125978613 0
+46/home/dell/Documents/ERC404UI/ERC404UI/main.js1707365183350931481 0
 64/home/dell/Documents/ERC404UI/ERC404UI/node_modules/.bin/js-yaml1707309644789775270 0
 73/home/dell/Documents/ERC404UI/ERC404UI/node_modules/ethereum-cryptography1707309441400143604 1
 85/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@parcel/core/lib/public/Target.js1707309571929189315 0
@@ -3475,7 +3475,7 @@
 87/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@swc/helpers/_/_non_iterable_spread1707309559809091987 1
 97/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/esm/common/eips/3860.js1707309441568144945 0
 105/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/types/common/eips/3651.d.ts.map1707309442156149643 0
-43/home/dell/Documents/ERC404UI/ERC404UI/dist1707319158326919470 1
+43/home/dell/Documents/ERC404UI/ERC404UI/dist1707365184002957594 1
 109/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@swc/helpers/cjs/_class_static_private_field_spec_get.cjs1707309559721091281 0
 74/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-validator/lib/esm1707309442028148620 1
 80/home/dell/Documents/ERC404UI/ERC404UI/node_modules/nth-check/lib/compile.js.map1707309559057085950 0
@@ -3483,7 +3483,7 @@
 100/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-utils/lib/commonjs/web3_deferred_promise.js1707309441732146256 0
 101/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/types/common/eips/2537.d.ts1707309442276150601 0
 83/home/dell/Documents/ERC404UI/ERC404UI/node_modules/ethereum-cryptography/esm/bip391707309441192141942 1
-61/home/dell/Documents/ERC404UI/ERC404UI/dist/index.63aff760.js1707319158314919389 0
+61/home/dell/Documents/ERC404UI/ERC404UI/dist/index.63aff760.js1707365183986956953 0
 86/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-ens/lib/types/config.d.ts1707309441572144978 0
 105/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/types/common/eips/3860.d.ts.map1707309442168149739 0
 123/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/convertPathData.js1707309559181086946 0
@@ -3966,7 +3966,7 @@
 64/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@scure/bip321707309441176141814 1
 72/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-utils/lib/types1707309442084149068 1
 90/home/dell/Documents/ERC404UI/ERC404UI/node_modules/type-fest/source/conditional-pick.d.ts1707309559073086079 0
-49/home/dell/Documents/ERC404UI/ERC404UI/index.html1707319157138911479 0
+49/home/dell/Documents/ERC404UI/ERC404UI/index.html1707364916212236331 0
 79/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-types/src/eth_types.ts1707309459996292228 0
 77/home/dell/Documents/ERC404UI/ERC404UI/node_modules/is-arguments/CHANGELOG.md1707309441152141622 0
 91/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-abi/src/coders/base/address.ts1707309442004148429 0
@@ -5180,7 +5180,7 @@
 96/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo1707309559433088969 1
 83/home/dell/Documents/ERC404UI/ERC404UI/node_modules/undici-types/global-origin.d.ts1707309441188141909 0
 98/home/dell/Documents/ERC404UI/ERC404UI/node_modules/csso/cjs/restructure/2-initialMergeRuleset.cjs1707309558957085147 0
-54/home/dell/Documents/ERC404UI/ERC404UI/dist/index.html1707319158298919282 0
+54/home/dell/Documents/ERC404UI/ERC404UI/dist/index.html1707364973102513247 0
 114/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/commonjs/common/hardforks/byzantium.d.ts1707309442320150953 0
 81/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@noble/curves/esm/p384.js.map1707309441732146256 0
 95/home/dell/Documents/ERC404UI/ERC404UI/node_modules/css-tree/cjs/tokenizer/OffsetToLocation.cjs1707309559405088744 0
@@ -5217,7 +5217,7 @@
 97/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@swc/helpers/src/_iterable_to_array_limit.mjs1707309559845092277 0
 98/home/dell/Documents/ERC404UI/ERC404UI/node_modules/web3-eth-accounts/lib/commonjs/common/index.js1707309441964148109 0
 82/home/dell/Documents/ERC404UI/ERC404UI/node_modules/csso/lib/replace/Percentage.js1707309559389088615 0
-65/home/dell/Documents/ERC404UI/ERC404UI/dist/index.63aff760.js.map1707319158322919443 0
+65/home/dell/Documents/ERC404UI/ERC404UI/dist/index.63aff760.js.map1707365183998957433 0
 83/home/dell/Documents/ERC404UI/ERC404UI/node_modules/caniuse-lite/data/regions/CN.js1707309561413104866 0
 77/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@noble/hashes/hkdf.js.map1707309441512144498 0
 97/home/dell/Documents/ERC404UI/ERC404UI/node_modules/@parcel/transformer-css/src/CSSTransformer.js1707309564009125709 0

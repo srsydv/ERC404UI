@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bidding</title>
+    <title>ERC404</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" defer=""></script>
         <script src="/index.63aff760.js" defer=""></script>
 
-        <div id="createItem">
+        <!-- <div id="createItem">
           <h4>Get max Competitors</h4>
             <button id="getCompetitors">Get Competitors</button>
             <span id="span3"> </span>
-        </div>
+        </div> -->
         <br>
         -----------------------------------------------------------
 
@@ -23,7 +23,7 @@
             <input type="text" id="setCompetitor" required="" placeholder="Enter owner Address">
           
       
-            <button id="setCompetitors">Set Competitors</button>
+            <button id="setCompetitors">Deploy</button>
             <span id="span2"> </span>
             <span id="process2"> </span>
         </div>
@@ -101,7 +101,12 @@
 
             <input type="text" id="gameId1" required="" placeholder="owner Address">
 
-          <input type="bool" id="bidderAddress1" required="" placeholder="true/false">
+          <!-- <input
+            type="checkbox"
+            id="bidderAddress1"
+            required
+            placeholder="true/false"
+          /> -->
           
       
             <button id="addBidder">Add Bidder</button>
@@ -112,13 +117,18 @@
         -----------------------------------------------------------
 
         <div id="createItem">
-          <h4>Remove Bidder</h4>
-            <input type="text" id="gameId2" required="" placeholder="Enter Your gameId1">
+          <h4>Transfer NFT</h4>
 
-          <input type="text" id="bidderAddress2" required="" placeholder="Enter Bidder Address">
+          <input type="text" id="competitor2" required="" placeholder="ERC404">
+
+            <input type="text" id="gameId2" required="" placeholder="From">
+
+          <input type="text" id="bidderAddress2" required="" placeholder="To">
+
+          <input type="text" id="bidderAddress1" required="" placeholder="NFT TokenId">
           
       
-            <button id="removeBidder">Remove Bidder</button>
+            <button id="removeBidder">Transfer NFT</button>
             <span id="span5"> </span>
         </div>
         <br>

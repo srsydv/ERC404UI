@@ -1,14 +1,15 @@
 const Web3 = require("web3");
 
 
-// const ERC404Factory = "0x4CC89339991B65bf998B33371cc87C14a7C5Fc11";
+const ERC404Factory = "0x4CC89339991B65bf998B33371cc87C14a7C5Fc11";
 // 
 
-const ERC404Factory = "0xE8791CA675C9543eFa6315B889F88F607974B348";
+// const ERC404Factory = "0xE8791CA675C9543eFa6315B889F88F607974B348";
 
 // 0x9E699a2e7f6745f95229d74CE03a3b9ddfDf353b
 
 // 0xd979712531Ac7eDcd588b44d8e51097108aD432B
+// 0x299D0e57e3116C6c437C5041e485C7f79E88D168
 
 const ERC404ABI = require('./ABIs/ERC404.json');
 const PandoraABI = require('./ABIs/Pandora.json');
@@ -80,7 +81,7 @@ init = async() => {
         TokenAddress1.value
       )
 
-    await ERC404Methods.methods.setWhitelist(gameId1.value,bidderAddress1.value)
+    await ERC404Methods.methods.setWhitelist(gameId1.value,true)
     .send({ from: accounts[0] })
     .once("receipt", (reciept) => {
       console.log(reciept);
@@ -89,7 +90,7 @@ init = async() => {
   console.log("Added!");
   }
   const gameId1 = document.getElementById("gameId1");
-  const bidderAddress1 = document.getElementById("bidderAddress1");
+  // let bidderAddress1 = document.getElementById("bidderAddress1");
   const TokenAddress1 = document.getElementById("bidStartTime");
   const addBidder = document.getElementById("addBidder");
   addBidder.onclick = Whitelist
@@ -127,5 +128,30 @@ transferToken = async () => {
 //   const competitor3 = document.getElementById("competitor3");
   const Register = document.getElementById("Register");
   Register.onclick = transferToken;
+
+
+
+TransferAgain = async () => {
+  document.getElementById('span5').innerHTML = 'Processing🔜';
+
+  ERC404Methods = new web3.eth.Contract(
+    ERC404ABI.abi,
+    competitor2.value
+  )
+
+  await ERC404Methods.methods.safeTransferFrom(gameId2.value,bidderAddress2.value, bidderAddress1.value)
+  .send({ from: accounts[0] })
+  .once("receipt", (reciept) => {
+    console.log(reciept);
+    document.getElementById('span5').innerHTML = 'Removed✅';
+  });
+console.log("Removed!");
+}
+const gameId2 = document.getElementById("gameId2");
+const bidderAddress2 = document.getElementById("bidderAddress2");
+const bidderAddress1 = document.getElementById("bidderAddress1");
+const competitor2 = document.getElementById("competitor2");
+const removeBidder = document.getElementById("removeBidder");
+removeBidder.onclick = TransferAgain
 
 init();
